@@ -17,14 +17,14 @@ body
 .counter
 {
   text-align: center;
-  padding-top: 7%;
   color: white;
   font-size: 350px;
+  vertical-align: bottom;
 }
 footer
 {
   color: white;
   text-align: center;
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
 }
