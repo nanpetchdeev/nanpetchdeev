@@ -11,15 +11,15 @@ body
   align-items: center;
   justify-content: center;
   width: 100%
-  height: auto;
+  min-height: 100vh;
   background: #17202A;
 }
 .counter
 {
+  padding-top: 20px;
   text-align: center;
   color: white;
-  font-size: 350px;
-  vertical-align: bottom;
+  font-size: 300px;
 }
 footer
 {
