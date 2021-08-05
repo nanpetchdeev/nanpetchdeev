@@ -6,7 +6,7 @@ document.querySelector("#counterReset");
 var counter = 0;
 
 document.addEventListener("keydown", (e) => {
-	if(e.keyCode === 32,38) {
+	if(e.keyCode === 32) {
 		counter++
 		counterValue.innerText = counter
 	}
