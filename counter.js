@@ -10,7 +10,7 @@ document.addEventListener("keydown", (e) => {
 		counter++
 		counterValue.innerText = counter
 	}
-	else if(e.keyCode === 8) {
+	else if(e.keyCode === 40) {
 		if(counter > 0) {
 			counter--
 			counterValue.innerText = counter
