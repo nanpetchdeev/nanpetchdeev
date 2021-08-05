@@ -21,10 +21,22 @@ body
   color: white;
   font-size: 300px;
 }
-footer
+.reset
 {
   color: white;
   text-align: center;
   position: absolute;
-  bottom: 20px;
+  bottom: 100px;
+}
+.help
+{
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 40px;
+}
+.help span
+{
+  color: red;
+  font-weight: bold;
 }
