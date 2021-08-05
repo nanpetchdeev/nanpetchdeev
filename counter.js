@@ -6,11 +6,11 @@ document.querySelector("#counterReset");
 var counter = 0;
 
 document.addEventListener("keydown", (e) => {
-	if(e.keyCode === 32) {
+	if(e.keyCode === 32,38) {
 		counter++
 		counterValue.innerText = counter
 	}
-	else if(e.keyCode === 40) {
+	else if(e.keyCode === 8,40) {
 		if(counter > 0) {
 			counter--
 			counterValue.innerText = counter
